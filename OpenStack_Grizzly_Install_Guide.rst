@@ -401,7 +401,8 @@ Status: Stable
 
    # Compute #
    compute_driver=libvirt.LibvirtDriver
-
+   allow_resize_to_same_host=True
+   
    # Cinder #
    volume_api_class=nova.volume.cinder.API
    osapi_volume_listen_port=5900
